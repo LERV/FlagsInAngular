@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+//These 2 lines here for using SCSS, could be also CSS in here or like in
+// the tutorial in Angular.json->Styles
+$flag-icon-css-path: '~flag-icon-css/flags' !default;
+@import "~flag-icon-css/sass/flag-icon";
